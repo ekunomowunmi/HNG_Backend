@@ -1,0 +1,33 @@
+{
+  "name": "hng_backend",
+  "version": "1.0.0",
+  "description": "A Simple Get Request",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekunomowunmi/HNG_Backend.git"
+  },
+  "keywords": [
+    "node",
+    "backend"
+  ],
+  "author": "Omowunmi Ekun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekunomowunmi/HNG_Backend/issues"
+  },
+  "homepage": "https://github.com/ekunomowunmi/HNG_Backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/node": "^11.13.17",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  }
+}
