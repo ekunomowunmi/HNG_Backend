@@ -2,9 +2,9 @@
     "version": 2,
     "name": "hng_backend",
     "builds": [
-       { "src": "web.js", "use": "@vercel/node" }
+       { "src": "index.js", "use": "@vercel/node" }
     ],
     "routes": [
-       { "src": "/(.*)", "dest": "/web.js" }
+       { "src": "/(.*)", "dest": "/index.js" }
     ]
  }

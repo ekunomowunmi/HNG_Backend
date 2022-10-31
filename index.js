@@ -1,7 +1,6 @@
-
 const express = require('express');
 const bodyParser = require('body-parser');
-const cors = require('cors');
+const corsFile = require('cors');
 
 // Init the Express application
 const app = express();
@@ -15,7 +14,7 @@ let user = {
     age: 25,
     bio: "I love to learn"
 }
-app.use(cors());
+app.use(corsFile());
 // Use the body parser middleware for post requests
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
