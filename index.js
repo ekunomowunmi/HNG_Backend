@@ -32,7 +32,7 @@ app.use(bodyParser.json());
     res.json(user)
   } );
 
-  app.post("/perform-operation",(req,res)=>{
+  app.post("/",(req,res)=>{
     let body = req.body;
     let result = 0;
     if(body){
